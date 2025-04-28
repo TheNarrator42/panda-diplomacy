@@ -5,6 +5,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 # negative sentiment: compound score <= -0.05
 
 if __name__=="__main__":
+    #TODO Possibly want it to take in JSON files for multiline text
     InputFile = "input/test.txt"
     OutputFile = "output/test.txt"
 
